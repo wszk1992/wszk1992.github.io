@@ -1,7 +1,7 @@
 ---
 title: Hello World
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Welcome to my Blog (powered by [Hexo](https://hexo.io/)). This is my very first post. Let me write down some useful hexo commend.
 
 ## Quick Start
 
@@ -29,10 +29,17 @@ $ hexo generate
 
 More info: [Generating](https://hexo.io/docs/generating.html)
 
-### Deploy to remote sites
+### Deploy to remote sites (-g generate before deploy)
 
 ``` bash
-$ hexo deploy
+$ hexo deploy [-g]
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### Post a writing
+
+``` bash
+$ hexo new [layout] <title>
+```
+`post` is the default `layout`. There are three default `layouts` in Hexo: `post`, `page` and `draft`.
